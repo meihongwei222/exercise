@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script src="https://unpkg.com/@wcjiang/notify/dist/notify.min.js"></script>
+<script type="text/javascript">
+    var iN = new Notify({
+        effect: 'flash',
+        interval: 500,
+        message: '有消息拉！',
+        updateFavicon:{ // 可选，默认绿底白字
+            textColor: '#fff',// favicon 字体颜色
+            backgroundColor: '#2F9A00', // 背景颜色
+        }
+    }).setFavicon(10);
+</script>
